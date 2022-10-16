@@ -14,7 +14,7 @@ Tools to quickly create PowerPoint Presentation with Quiz-Questions
 
 
 ### Json2Powerpoint (Create PowerPoint presentation out of questions)
-> Quickly copy quiz questions from the internet and generate python dictionary out of them.
+> Use exported .txt file to create .pptx file with all questions and answers
 
 #### How does it work?
 1. Install requirements: (`pip3 install <libary>`)
