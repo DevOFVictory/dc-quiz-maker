@@ -4,8 +4,9 @@ from pptx import Presentation
 from pptx.util import Pt
 from pptx.dml.color import RGBColor
 import random
+import ast
 
-questions = dict(open('questions_output.txt', 'r').read())
+questions = ast.literal_eval(open('questions_output.txt', 'r').read())
 
 print('Shuffling questions...')
 l = list(questions.items())
